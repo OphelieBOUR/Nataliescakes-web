@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
@@ -30,4 +32,144 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.page-container{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.container-tableau{
+  width: 95%;
+}
+
+
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-value-wrap {
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 4px 11px;
+}
+
+.delete{
+  font-weight: bold;
+  color: dimgrey;
+}
+
+.subutton-menu{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:20px;
+  background-color: #e22565;
+}
+
+.titre{
+  margin-top: 15px;
+  color:   #555555;
+}
+
+.container-graph{
+  display: flex;
+}
+
+.graph1{
+  margin-right: 100px;
+}
+
+.tableau{
+  margin-top: 40px;
+  width:95%;
+}
+
+.banner{
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 150px;
+  background-color: #fbf3c2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-banner{
+  width:592px;
+  height: 197px;
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('images/Logo.png');
+}
+
+.nathalie-button{
+  background-color: white;
+  color: #e22565;
+  border-color: grey;
+
+}
+
+.nathalie-button:hover{
+  background-color:#fbf3c2;
+  color: #e22565;
+  border-color: grey;
+
+}
+
+.nathalie-button:focus{
+  background-color:#fbf3c2;
+  color: #e22565;
+  border-color: grey;
+
+}
+
+.button-form{
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-bottom: 150px;
+  border-radius: 5px;
+}
+
+h1{
+  color: #555555;
+}
+
+.ombre {
+  -webkit-box-shadow: -2px 0px 17px -4px grey;
+  -moz-box-shadow: -2px 0px 17px -4px grey;
+  box-shadow: -2px 0px 17px -4px grey;
+}
+
+
+.bold{
+  font-weight: bold;
+}
+
+.header-liste{
+  background-color: dimgrey;
+  color: white;
+}
+
+.icon-header{
+  height: 20px;
+}
+
+.flex{
+  display:flex;
+  flex-direction: row;
+}
+
+.flex-logo{
+  padding-top: 2px;
+  padding-left: 5px;
 }
